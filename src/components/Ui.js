@@ -1,8 +1,5 @@
 import React from "react";
-import Chat from "./Chat";
 import Home from "./Home";
-import Img1 from "../Img/img1.jpeg";
-import messages from "../components/Chat";
 
 export default function Ui() {
 return (

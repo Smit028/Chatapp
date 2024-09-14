@@ -57,6 +57,7 @@
 
 .msg {
   background-color: transparent;
+  
 }
 
 /* YourComponent.css */
@@ -88,7 +89,7 @@
 
 /* Add a class for sent messages with animation */
 .sent-message {
-  text-align: right; /* Align sent messages to the right */
+  text-align: right !important; /* Align sent messages to the right */
   margin-right: 10px; /* Add margin for spacing */
   background-color: transparent; /* Add a background color for sent messages */
   border-radius: 10px; /* Add some rounded corners */
@@ -98,7 +99,7 @@
 
 /* Add a class for received messages with animation */
 .received-message {
-  text-align: left; /* Align received messages to the left */
+  text-align: left !important; /* Align received messages to the left */
   margin-left: 10px; /* Add margin for spacing */
   background-color:transparent; /* Add a background color for received messages */
   border-radius: 10px; /* Add some rounded corners */
@@ -193,3 +194,5 @@
   height: 100vh;
   background-color: #a4bcd4; /* Set the background to transparent */
 }
+
+

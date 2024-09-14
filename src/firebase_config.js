@@ -3,13 +3,13 @@ import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 import {getFirestore} from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBF6QyvBzySKI3LBKKUE5t0VCb-3nY_KQg",
-  authDomain: "engiverse-b6a5b.firebaseapp.com",
-  projectId: "engiverse-b6a5b",
-  storageBucket: "engiverse-b6a5b.appspot.com",
-  messagingSenderId: "617650329799",
-  appId: "1:617650329799:web:cd6c645fbd1a28cf2fc6e2",
-  measurementId: "G-G65LJQFWW8"
+  apiKey: "AIzaSyAQTJmR_gWqGISv1sOVDN806Odh_I9CTig",
+  authDomain: "engiverse-5c5b3.firebaseapp.com",
+  projectId: "engiverse-5c5b3",
+  storageBucket: "engiverse-5c5b3.appspot.com",
+  messagingSenderId: "879752332767",
+  appId: "1:879752332767:web:5a1898dd0f6c62e324306a",
+  measurementId: "G-B7R9G6N36H"
 };
 // initializing to identify a project
 

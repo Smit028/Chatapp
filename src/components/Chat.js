@@ -1,4 +1,8 @@
+// 123
+
+import "../App.css"
 import React, { useEffect, useState, useRef } from "react";
+import { authUser, db } from "../firebase_config";
 import {
   addDoc,
   collection,
@@ -8,10 +12,6 @@ import {
   serverTimestamp,
   where,
 } from "firebase/firestore";
-import { authUser, db } from "../firebase_config";
-import "../App.css";
-import Img1 from '../Img/img1.jpeg'
-
 const Chat = (props) => {
   const { server } = props;
   const [newMessage, setNewMessage] = useState("");
@@ -38,7 +38,6 @@ const Chat = (props) => {
     });
     return () => unsubscribe();
   }, [server]);
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (newMessage === "") return;
@@ -75,10 +74,11 @@ const Chat = (props) => {
             className={`msg-txt ${
               message.user === authUser.currentUser.displayName
                 ? "sent-message"
-                : "received-message"
+                : "received-messag1"
             }`}
             key={message.id}
           >
+            
             <div className="border-b border-gray-600 py-1 pb-2 flex items-start text-sm">
               {message.user !== authUser.currentUser.displayName && (
                 <img
@@ -93,7 +93,9 @@ const Chat = (props) => {
                     {message.user}
                   </span>
                 </div>
-                <p className="text-white leading-normal">{message.text}</p>
+                <p className="text-white leading-normal">{message.text}
+                  
+                </p>
               </div>
               {message.user === authUser.currentUser.displayName && (
                 <img
