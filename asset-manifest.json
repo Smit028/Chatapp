@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/Talks/static/css/main.a4935d1c.css",
-    "main.js": "/Talks/static/js/main.7c9d49ac.js",
-    "static/js/787.2463b03d.chunk.js": "/Talks/static/js/787.2463b03d.chunk.js",
-    "static/media/img1.jpeg": "/Talks/static/media/img1.33dcf10d2835a05b34d5.jpeg",
-    "index.html": "/Talks/index.html",
-    "main.a4935d1c.css.map": "/Talks/static/css/main.a4935d1c.css.map",
-    "main.7c9d49ac.js.map": "/Talks/static/js/main.7c9d49ac.js.map",
-    "787.2463b03d.chunk.js.map": "/Talks/static/js/787.2463b03d.chunk.js.map"
+    "main.css": "/Chatapp/static/css/main.5189c98f.css",
+    "main.js": "/Chatapp/static/js/main.682aa722.js",
+    "static/js/787.2463b03d.chunk.js": "/Chatapp/static/js/787.2463b03d.chunk.js",
+    "index.html": "/Chatapp/index.html",
+    "main.5189c98f.css.map": "/Chatapp/static/css/main.5189c98f.css.map",
+    "main.682aa722.js.map": "/Chatapp/static/js/main.682aa722.js.map",
+    "787.2463b03d.chunk.js.map": "/Chatapp/static/js/787.2463b03d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4935d1c.css",
-    "static/js/main.7c9d49ac.js"
+    "static/css/main.5189c98f.css",
+    "static/js/main.682aa722.js"
   ]
 }
